@@ -1,3 +1,7 @@
+Direcotry Structure of VisualStudio
+
+![VisualStudio](image/image_1.png)
+
 ## Questions
 
 6. setting golang app as windows service
