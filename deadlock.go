@@ -16,8 +16,10 @@ func main() {
 		select {
 		case message_from_channel_1 := <-channel_1:
 			fmt.Println(message_from_channel_1)
+			//go portal_2(channel_2)
 		case message_from_channel_2 := <-channel_2:
 			fmt.Println(message_from_channel_2)
+			//go portal_1(channel_1)
 		}
 	}
 }
